@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
    
     <link rel="stylesheet" href="./css/styles.css"/>
 
@@ -20,29 +20,28 @@
 <body>
 
     <header class="header">
-        <div class="conrtainer">
-            <nav>
-                <a class="logo" href="index.html">WebStudios</a>
-                <ul class="navbar">
-                    <li> 
-                      <a class="navbar-link" href="./index.html">Studio</a>
+        <div class="conrtainer nav-container">
+            <nav class="navbar-list">
+                <a class="logo" href="index.html">WebStudio</a>
+                <ul class="navbar list">
+                  <li class="navbar-item">
+                      <a class="navbar-contact-link" href="./index.html">Studio</a>
                     </li>
-                    <li> 
-                      <a class="navbar-link current-link" href="./portfolio.html">Portfolio</a>
+                    <li class="navbar-item"> 
+                      <a class="navbar-contact-link current-link" href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li >
-                      <a class="navbar-link" href="#">Contacts</a>
+                    <li class="navbar-item">
+                      <a class="navbar-contact-link" href="#">Contacts</a>
                     </li>
                 </ul>
             </nav>
 
-            <ul>
-                <li>
-                  <a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="nav-contacts list">
+                <li class="header-contact-item">
+                  <a class="header-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-
-                <li>
-                  <a class="contacts link" href="tel:+38 096 111 11 11"> +38 096 111 11 11</a>
+                <li class="header-contact-item">
+                  <a class="headar-contact-link" href="tel:+38 096 111 11 11"> +38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -51,31 +50,31 @@
     <main>
 
         <section class="section">
-            <div class="container">
-              <ul class="filters">    
-                <li>
+            <div class="container container-portfolio">
+              <ul class="filters list">    
+                <li class="filter-item">
                   <button class="filter-button filter-current" type="button">All</button>
                 </li>
                 <li>
                   <button class="filter-button" type="button">Web-sites</button>
                 </li>
-                <li>
+                <li class="filter-item">
                   <button class="filter-button" type="button">Apps</button>
                 </li>
-                <li>
+                <li class="filter-item">
                   <button class="filter-button" type="button">Design</button>
                 </li>
-                <li>
+                <li class="filter-item">
                   <button class="filter-button" type="button">Marketing</button>
                 </li>
               </ul>
 
-              <ul class="projects">
-                <li>
+              <ul class="projects list">
+                <li class="projects-item">
                   <img src="./images/pepole.jpg"
                          alt=" picture of people on screen notebook"
                          width="370"/> 
-                  <div>
+                  <div class="footer-projects">
                     <h3 class="projects-heading">
                       Technoduck
                     </h3>
@@ -84,11 +83,11 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/basketball.jpg"
                          alt="Image of two basketball players"
                          width="370"/>
-                  <div>
+                  <div class="footer-projects">
                     <h3 class="projects-heading">
                     Poster New Orleans vs Golden Star player
                     </h3>
@@ -97,11 +96,11 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-filter">
                   <img src="./images/seafood.jpg"
                          alt="logo of fish with restaurant"
                          width="370"/>
-                  <div>
+                  <div class="footer-projects">
                     <h3 class="projects-heading">
                       Seafood Restaurant
                     </h3>
@@ -110,11 +109,11 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/headphons.jpg"
                          alt="full coverage all black headphones"
                          width="370"/>
-                  <div>       
+                  <div class="footer-projects">       
                     <h3 class="projects-heading">
                       Project Prime
                     </h3>
@@ -123,11 +122,11 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/box.jpg"
                          alt="two packaging boxes"
                          width="370"/>
-                  <div>
+                  <div class="footer-projects">
                     <h3 class="projects-heading">
                       Project Boxes
                     </h3>
@@ -136,11 +135,11 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/screen.jpg"
                     alt="a desktop screen"
                     width="370"/>
-                  <div>
+                  <div class="footer-projects">
                     <h3 class="projects-heading">
                       Inspiration has no Borders
                     </h3>
@@ -149,11 +148,11 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/magazine.jpg"
                     alt="open magazine"
                     width="370"/>
-                  <div>
+                  <div class="footer-projects">
                     <h3 class="projects-heading">
                       Limited Edition
                     </h3>
@@ -162,11 +161,11 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/labeltag.jpg"
                     alt="labeltag"
                     width="370"/>
-                  <div>
+                  <div class="footer-projects">
                     <h3 class="projects-heading">
                       Project LAB
                     </h3>
@@ -175,11 +174,11 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/notebook.jpg"
                     alt="notebook with typing hands"
                     width="370"/>
-                  <div>
+                  <div class="footer-projects">
                     <h3 class="projects-heading">
                       Growing Business
                     </h3>
@@ -195,18 +194,18 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <a class="logo" href="index.html">WebStudios</a>
-            <address>
-                <ul>
+        <div class="container footer-container">
+            <a class="logo logo-footer" href="index.html">WebStudios</a>
+            <address class="address">
+                <ul class="list-address list">
                     <li>
-                        <a class="address link" href="#">695 Park Ave New York, NY 10065<br> United States</a>
+                        <a class="footer-link" href="#">695 Park Ave New York, NY 10065<br> United States</a>
                     </li>
                     <li>
-                        <a class="address link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a class="address link" href="tel:+38 096 111 11 11"> +38 096 111 11 11</a>
+                        <a class="footer-link" href="tel:+38 096 111 11 11"> +38 096 111 11 11</a>
                     </li>
                 </ul>
             </address>
